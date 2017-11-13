@@ -1,5 +1,3 @@
 # ThreeJsStarter
 
-This project is not currently functional.
-
-Get a basic threejs project running.
+Get a basic threejs project running - spinny cube using webpack.

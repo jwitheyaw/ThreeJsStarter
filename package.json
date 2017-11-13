@@ -1,0 +1,29 @@
+{
+  "name": "ThreeJsStarter",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "Jonathan Withey",
+    "email": "jon.withey@agilityworks.co.uk",
+    "url": ""
+  },
+  "main": "ToDo",
+  "keywords": [
+    "ThreeJs"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.1.1",
+    "webpack": "^3.8.1",
+    "webpack-dashboard": "^1.0.2",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=local webpack-dashboard -- webpack-dev-server --progress --colors --inline --hot --compress",
+    "build": "cross-env webpack --progress --colors",
+    "release": "ToDo"
+  },
+  "repository": "jwitheyaw/ThreeJsStarter",
+  "private": true
+}
